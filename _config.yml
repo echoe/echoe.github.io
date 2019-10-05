@@ -22,12 +22,14 @@ baseurl: ""
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Github: "https://github.com/echoe/"
-    - Itch.io: "https://rainbowmessenger.itch.io/"
-    - Soundcloud: "https://soundcloud.com/rainbowmessenger"
+  The Things I'm Most Proud Of At This Time:
+    - Nothing yet x.x: ""
+  Creative Pages:
+    - Coding - Github: "https://github.com/echoe/"
+    - Making Games - Itch.io: "https://rainbowmessenger.itch.io/"
+    - Making Music - Soundcloud: "https://soundcloud.com/rainbowmessenger"
+  Inevitable Thanks:
     - Beautiful Jekyll, which this site is: "http://deanattali.com/beautiful-jekyll/"
-  Author's home: "https://irisfelshman.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -42,7 +44,7 @@ navbar-links:
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
+navbar-text-col: "#5A4FCF"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
