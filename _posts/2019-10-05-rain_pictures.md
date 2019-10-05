@@ -1,8 +1,8 @@
 ---
 layout: post
 title: It's raining recently, so just a picture of it all. :)
-img: /img/IMG-0172.JPG
+img: /img/rainysteps.JPG
 ---
 
 Just a picture I took of the rain, on this beautiful Chicago fall. Respect the rain, and the feeling it makes when it goes through you. <3
-![Steps](/img/IMG-0172.JPG)
+![Steps](/img/rainysteps.JPG)
