@@ -1,6 +1,9 @@
 ---
 layout: post
-title: First post!
+title: Welcome!
+subtitle: also welcome here
+tags: [intro, blog]
+comments: true
 ---
 
 Hi, everyone.
