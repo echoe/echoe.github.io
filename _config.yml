@@ -21,7 +21,7 @@ baseurl: ""
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About: "about"
   The Things I'm Most Proud Of At This Time:
     - Nothing yet x.x: ""
   Creative Pages:
