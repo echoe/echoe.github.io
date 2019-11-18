@@ -23,7 +23,8 @@ baseurl: ""
 navbar-links:
   About: "about"
   The Things I'm Most Proud Of At This Time:
-    - Nothing yet x.x: ""
+    - This game, 'existentialism': "https://rainbowmessenger.itch.io/existentialism"
+    - Various work things nobody can see: "notonthepublicinternet.thisurldoesntgoanywhere"
   Creative Pages:
     - Coding - Github: "https://github.com/echoe/"
     - Making Games - Itch.io: "https://rainbowmessenger.itch.io/"
