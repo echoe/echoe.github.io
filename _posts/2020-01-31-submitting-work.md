@@ -8,9 +8,7 @@ comments: true
 
 I've been starting to write medium posts about things, and start to submit posts again. After I graduated college the first time I wanted to be a writer, but I also had something like -$20,000 in my bank account. So that was a trifle unrealistic.
 But one thing I'm noticing is that even post-that: now that I've economically 'made it', for lack of a better word; it doesn't affect my actual personality or output. In fact, I think it makes output harder.
-Here's the last medium post I wrote, a 2500-word piece about aesthetic and the positioning of opinion within framework as related through a YouTube celebrity who's a bit of a criticism lighting rod. It's gotten two views and zero actual reads on this posting.
-
-(https://medium.com/me/stats/post/ab1f56df3f8d)
+Here's the last medium post I wrote, a 2500-word piece about aesthetic and the positioning of opinion within framework as related through a YouTube celebrity who's a bit of a criticism lighting rod. It's gotten [two views and zero actual reads](https://medium.com/me/stats/post/ab1f56df3f8d) on this posting.
 
 I submitted a story somewhere a week ago. It was something I love, but is perhaps not something others want to read. It was rejected.
 
