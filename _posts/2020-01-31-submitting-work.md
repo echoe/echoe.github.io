@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On the game of submitting writing
-subtitle: or: We must imagine Sisyphus productive
+subtitle: or, We must imagine Sisyphus productive
 tags: [intro, blog, games, writing]
 comments: true
 ---
