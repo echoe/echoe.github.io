@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Setting up REAPER on Linux: why, how, and etc.
-subtitle: I think it's actually realistic now
+title: Setting up REAPER on Linux - why, how, and assorted thoughts.
+subtitle: I think it's actually realistic now!
 tags: [music, code, tech]
 comments: false
 ---
