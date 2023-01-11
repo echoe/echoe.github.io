@@ -48,8 +48,8 @@ social-network-links:
   email: "irisfe@proton.me"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook:
-  #itch: rainbowmessenger
-  #soundcloud: rainbowmessenger
+  itch: rainbowmessenger
+  soundcloud: rainbowmessenger
   github: echoe
   twitter: rainbowmessengr
   # patreon: rainbow_mess
