@@ -25,7 +25,8 @@ navbar-links:
     - Coding - Github: "https://github.com/echoe/"
     - Making Games - Itch.io: "https://rainbowmessenger.itch.io/"
     - Making Music - Soundcloud: "https://soundcloud.com/rainbowmessenger"
-    - Streaming: "https://twitch.tv/rainbow_mess"
+    - Streaming - Twitch: "https://twitch.tv/rainbow_mess"
+    - Web Videos - Youtube: "https://www.youtube.com/channel/UCkgfz7gWkEUyxWuMTuaynYw"
 
 ################
 # --- Logo --- #
@@ -50,7 +51,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "feiris@proton.me"
+  email: "irisfe@proton.me"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook: 
   github: echoe
