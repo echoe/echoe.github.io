@@ -8,7 +8,8 @@ comments: true
 
 as someone who's had a fair amount of surgery, it's lifesaving. but I have two ...  questions, that you can perhaps consider problems, with it. and i wanted to talk about those really quickly, and just ... state them. I don't know if this will help anything, but at least ... it's out there.
 
-1. what are you going to get?
+
+### what are you going to get?
 
 
 in my mind, transition is an acknowledgement that there is pain in the space that you were in (pretransition), and a statement - a promise - that you will do your level best to reckon with the pain as much as possible, and get to a better place. But transition can't make you socially "normal" (though who would want that?). And transitioning can't replace the parts of your life that make you different, societally (though this is mostly a societal complication, which hopefully will be further resolved over time).
@@ -37,7 +38,7 @@ but ... what are you going to get?
 
 
 
-2. when do you stop?
+### when do you stop?
 
 
 so I, personally, have had ... two surgeries.
@@ -58,7 +59,8 @@ when do you stop?
 
 
 
+### to conclude.
 
-I don't really have answers to either of these questions. ... Well, I have answers to the first one for me, but that answer is "you'll get enough, but not something flawless".
+I don't really have answers to either of these questions. ... well, I have answers to the first one for me, but that answer is "you'll get enough, but not something flawless".
 
-But I feel they're worth asking. And possibly, in the asking, we find things about them. And we figure out ... when we can stop. and from there, we can do our best with what we have. and we can all hopefully experience the joy of living unrestrained - sometimes, joy that only these surgeries can unlock.
+but I feel they're worth asking. and possibly, in the asking, we find things about them. and we figure out ... when we can stop. and from there, we can do our best with what we have. and we can all hopefully experience the joy of living unrestrained - sometimes, joy that only these surgeries can unlock.
