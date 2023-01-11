@@ -96,6 +96,32 @@
   </li>
 {%- endif -%}
 
+
+{%- if site.social-network-links.itch -%}
+  <li class="list-inline-item">
+    <a href="https://{{ site.social-network-links.itch }}.itch.io" title="Itch.io">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Itch.io</span>
+   </a>
+  </li>
+{%- endif -%}
+
+https://press.soundcloud.com/images/419677
+{%- if site.social-network-links.soundcloud -%}
+  <li class="list-inline-item">
+    <a href="https://soundcloud.com/{{ site.social-network-links.reddit }}" title="Soundcloud">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Soundcloud</span>
+   </a>
+  </li>
+{%- endif -%}
+
 {%- if site.social-network-links.linkedin -%}
   <li class="list-inline-item">
     <a href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}" title="LinkedIn">
