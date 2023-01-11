@@ -10,21 +10,22 @@
 ############################
 
 # Name of website
-title: My Website
+title: welcome to my website. there is html on it
 
 # Your name to show in the footer
-author: Some Person
+author: Iris Felshman
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About: "about"
+  Creative Pages:
+    - Coding - Github: "https://github.com/echoe/"
+    - Making Games - Itch.io: "https://rainbowmessenger.itch.io/"
+    - Making Music - Soundcloud: "https://soundcloud.com/rainbowmessenger"
+    - Streaming: "https://twitch.tv/rainbow_mess"
 
 ################
 # --- Logo --- #
@@ -49,16 +50,16 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "feiris@proton.me"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  # facebook: 
+  github: echoe
+  twitter: rainbowmessengr
+  # patreon: DeanAttali
+  youtube: @rainbow_mess
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: iris-felshman-2498a211"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -66,11 +67,11 @@ social-network-links:
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
-#  twitch: yourname
+  twitch: rainbow_mess
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
+  mastodon: tech.lgbt/@feiris
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: invite/invite_code or users/userid 
@@ -79,7 +80,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is my random musings on the internet
 
 ###########################
 # --- General options --- #
@@ -88,13 +89,13 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "irisfelshman.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -125,16 +126,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
+navbar-col: "#F5F5F5"
+navbar-text-col: "#5A4FCF"
+navbar-children-col: "#F5F5F5"
+page-col: "#F5F5F5"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-col: "#F5F5F5"
+footer-text-col: "#5A4FCF"
 footer-link-col: "#404040"
+# unchanged so far from base ...
+text-col: "#404040"
 footer-hover-col: "#0085A1"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
