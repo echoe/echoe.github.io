@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: welcome to my website. there is html on it
+title: welcome to my website. there is content on it. you're reading it now
 
 # Your name to show in the footer
 author: Iris Felshman
@@ -126,7 +126,7 @@ navbar-var-length: false
 navbar-col: "#F5F5F5"
 navbar-text-col: "#5A4FCF"
 navbar-children-col: "#F5F5F5"
-page-col: "#F5F5F5"
+page-col: "#e5d3e7"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"
