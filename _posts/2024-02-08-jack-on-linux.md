@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Realtime audio on Linux? It's actually not that bad if you know the secret annotations!
+title: Realtime audio on Linux? It's actually not that bad if you know the secret invocations!
 subtitle:
 tags: [music, code, tech]
 comments: false
