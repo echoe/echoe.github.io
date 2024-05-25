@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: welcome to my website. there is content on it. you're reading it now
 
 # Your name to show in the footer
-author: Some Person
+author: Iris Felshman
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,6 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -50,17 +46,17 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  #email: "irisfe@proton.me"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  #facebook: deanattali
+  github: echoe
+  #twitter: daattali
+  #patreon: DeanAttali
+  #youtube: "@daattali"
+  #whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: iris-felshman-2498a211
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -68,19 +64,19 @@ social-network-links:
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
-#  twitch: yourname
+#  twitch: rainbow_mess
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
+  mastodon: tech.lgbt/@feiris
+  bluesky: rainbowmess
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
-#  itchio: yourname
+  itchio: rainbowmessenger
 #  untappd: yourname
 
 # If you want your website to generate an RSS feed, provide a description
@@ -93,14 +89,15 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  bluesky: true
+  facebook: false
   linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "irisfelshman.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -134,15 +131,28 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
+#defaults:
+#page-col: "#FFFFFF"
+#text-col: "#404040"
+#link-col: "#008AFF"
+#hover-col: "#0085A1"
+#navbar-col: "#EAEAEA"
+#navbar-text-col: "#404040"
+#navbar-border-col: "#DDDDDD"
+#footer-col: "#EAEAEA"
+#footer-text-col: "#777777"
+#footer-link-col: "#404040"
+#footer-hover-col: "#0085A1"
+
+page-col: "#e5d3e7"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+navbar-col: "#F5F5F5"
+navbar-text-col: "#5A4FCF"
+navbar-border-col: "#F5F5F5"
+footer-col: "#F5F5F5"
+footer-text-col: "#5A4FCF"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
