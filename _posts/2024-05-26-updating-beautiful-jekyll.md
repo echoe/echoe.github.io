@@ -2,7 +2,7 @@
 layout: post
 title: Updating Beautiful Jekyll
 subtitle: Pretty easy, all in all!
-tags: [test]
+tags: [website]
 comments: true
 ---
 
