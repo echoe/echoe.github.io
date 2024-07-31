@@ -45,6 +45,18 @@ So you can install and run this in an almost entirely linux-based workflow!
 
 - Happily - and perhaps I just didn't do enough searching to find it the last time - you can install windows plugins fairly easily with https://github.com/robbert-vdh/yabridge ! It works ... really simply. I just followed the instructions, and I can now run Digitalis ( a great and strange plugin you can read more about here: https://aberrantdsp.com/plugins/digitalis/ ) without issues on Linux. So if you want you don't need to abandon your old stuff. :)
 
+A quick walkthrough on yabridge:
+#1: install wine-staging the way it says to
+#2: install yabridge the way it says to
+#3: run wine (plugin installation exe), and install it
+4: in CLI run:
+'''
+yabridgectl add "$HOME/.wine/drive_c/Program Files/Common Files/VST3" (or the vst2 folder, it's in the yabridge walkthrough)
+'''
+5: in CLI run: yabridgectl sync
+6: You're done! Open your daw and the VSTs are there. if you install more VST's just do steps 3-5 
+
+
 My TLP Settings are only four main things:
 ```
 CPU_MAX_PERF_ON_BAT=0 #This ensures the CPU does not boost.
