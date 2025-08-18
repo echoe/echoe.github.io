@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I bought a minibook x=X as a laptop. It's tiny. I love it.
+title: I bought a minibook X as a laptop. It's tiny. I love it.
 subtitle: some frivoloty, for once!
 comments: false
 ---
