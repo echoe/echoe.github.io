@@ -20,13 +20,16 @@ I only really use Discord and Firefox though, so I loaded up my laptop today, an
 And I went through figuring out how to do this ... it took two hours or so. (This post is also me remembering these settings.)
 
 Firefox was easy, I just had to add this line to my ~/.profile file:
-export MOZ_ENABLE_WAYLAND=1
+
+`export MOZ_ENABLE_WAYLAND=1`
 
 On Ubuntu, I decided to just install Discord directly and not use a snap, and then I was able to edit the Desktop setting like this:
 
-sudo vi /usr/share/applications/discord.desktop
+`sudo vi /usr/share/applications/discord.desktop`
+
 And then change the exec to this:
-Exec=/usr/share/discord/Discord --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WaylandWindowDecorations
+
+`Exec=/usr/share/discord/Discord --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=WaylandWindowDecorations`
 
 Yes, it took me two hours to find that. ... But it's absolutely absurd that this is required. These are the types of issues I run into when I try to use Linux ... and it's what makes me confident that the Linux Desktop just isn't going to happen.
 
