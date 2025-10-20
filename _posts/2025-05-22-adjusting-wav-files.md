@@ -22,3 +22,9 @@ Go to the folder you want, run this, and you should be good. :) I thought it was
   IFS=$'\n'; for file in `find . -maxdepth 2 -type f \! \( -name \*16.wav \)`; do rm $file; done
 
 And I am happily resampling every loop to go +1600% speed so it stretches over four minutes now. :p I hope this helps if you need it!
+
+October update:
+
+To use the lame codec to convert .mp3 files to .wav programmatically, you can just:
+  find . -type f | while read i; do j=$(echo $i | sed 's/.mp3/.wav/g'); lame -V2 $i $j; done
+Did I save 100 samples in .mp3 accidentally? ... ... maybe.
