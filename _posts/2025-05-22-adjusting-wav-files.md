@@ -25,8 +25,8 @@ And I am happily resampling every loop to go +1600% speed so it stretches over f
 
 October update:
 
-To use the lame codec to convert .mp3 files to .wav programmatically, you can just:
+To use the ffmpeg codec to convert .mp3 files to .wav programmatically, you can just:
 
-`find . -type f | while read i; do j=$(echo $i | sed 's/.mp3/.wav/g'); lame -V2 $i $j; done`
+`find . -type f | while read i; do j=$(echo $i | sed 's/.mp3/.wav/g'); ffmpeg -i $i $j; done`
 
-Did I save 100 samples in .mp3 accidentally? ... ... maybe.
+Did I save hundreds of samples in .mp3 accidentally? ... ... maybe.
