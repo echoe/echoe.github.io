@@ -50,20 +50,22 @@ A quick walkthrough on yabridge:
 #2: install yabridge the way it says to
 #3: run wine (plugin installation exe), and install it
 4: in CLI run:
-'''
-yabridgectl add "$HOME/.wine/drive_c/Program Files/Common Files/VST3" (or the vst2 folder, it's in the yabridge walkthrough)
-'''
+
+`yabridgectl add "$HOME/.wine/drive_c/Program Files/Common Files/VST3"` 
+
+(or the vst2 folder, it's in the yabridge walkthrough)
+
 5: in CLI run: yabridgectl sync
 6: You're done! Open your daw and the VSTs are there. if you install more VST's just do steps 3-5 
 
 
 My TLP Settings are only four main things:
-```
-CPU_MAX_PERF_ON_BAT=0 #This ensures the CPU does not boost.
+
+`CPU_MAX_PERF_ON_BAT=0 #This ensures the CPU does not boost.
 CPU_MAX_PERF_ON_AC=90 # This brings max CPU when plugged in under 100 so it does not get near boosting. This is set conservatively and sometimes when I'm plugged in I will purposefully sudo tlp bat to set max CPU back to 0.
 PCIE_ASPM_ON_BAT=powersupersave # I may switch this to powersave in the future, it just forced the most power saving mode.
 RUNTIME_PM_ON_AC=auto # This will enable powering down PCIe devices while plugged in.
-```
+`
 
 Disable the built-in Fedora power management to add tlp and run the suggestions, and everything has been pretty good since then.
 (Yes, I'm lowering the power of the machine substantially. I'll be honest - I don't care. I just want it to not have the fans spin up noticeably, and to remain relatively cool.)
