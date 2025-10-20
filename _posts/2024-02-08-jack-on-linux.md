@@ -16,14 +16,16 @@ Anyways, after installing Kubuntu, it's been way beter! And I figured ... I bet 
 
 Step 1:
 Install a bunch of stuff. 
-sudo apt-get install jackd qjackctl pulseaudio-module-jack a2jmidid
+
+`sudo apt-get install jackd qjackctl pulseaudio-module-jack a2jmidid`
 
 Step 2:
 Set up qjackctl, and open it. You'll be starting it before you open your DAW.
 
 Step 3:
 Add this line to qjackctl in options > execute script on startup:
-pactl load-module module-jack-sink channels=2; pactl load-module module-jack-source; pacmd set-default-sink jack_out; a2jmidid -e &
+
+`pactl load-module module-jack-sink channels=2; pactl load-module module-jack-source; pacmd set-default-sink jack_out; a2jmidid -e &`
 
 Step 4:
 Before using your DAW (I use Reaper), open up qjackctl and press start. This will set your sink module, and will enable the alsa midi layer through jack. Everything should now work as you expect!
