@@ -15,16 +15,18 @@ But how do I convert them? I could drag them all into audacity or reaper and han
 
 ... So instead I could look up a bunch of stuff about how the zsh terminal works in MacOS, and write this small snippet:
 
-  IFS=$'\n'; for file in `find . -maxdepth 2 -type f -name \*.wav`; do sox $file -b 16 ${file/.wav/-16.wav} rate 44100; done
+`IFS=$'\n'; for file in $(find . -maxdepth 2 -type f -name \*.wav); do sox $file -b 16 ${file/.wav/-16.wav} rate 44100; done`
 
 Go to the folder you want, run this, and you should be good. :) I thought it was a little ... messy afterwards, so I ran this to delete the non -16 bit wav files:
 
-  IFS=$'\n'; for file in `find . -maxdepth 2 -type f \! \( -name \*16.wav \)`; do rm $file; done
+`IFS=$'\n'; for file in $(find . -maxdepth 2 -type f \! \( -name \*16.wav \)); do rm $file; done`
 
 And I am happily resampling every loop to go +1600% speed so it stretches over four minutes now. :p I hope this helps if you need it!
 
 October update:
 
 To use the lame codec to convert .mp3 files to .wav programmatically, you can just:
-  find . -type f | while read i; do j=$(echo $i | sed 's/.mp3/.wav/g'); lame -V2 $i $j; done
+
+`find . -type f | while read i; do j=$(echo $i | sed 's/.mp3/.wav/g'); lame -V2 $i $j; done`
+
 Did I save 100 samples in .mp3 accidentally? ... ... maybe.
