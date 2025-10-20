@@ -13,13 +13,16 @@ If you've used Nextcloud on Windows, you'll realize that this actually sort of b
 I hate error messages!
 
 ... So I fixed it, in bash. First, find the files:
-find . -type f -iname '/ *'
+
+`find . -type f -iname '/ *'`
 
 Then rename them:
-rename 's|/ |/|'
+
+`rename 's|/ |/|'`
+
 Run it with the -n flag to make sure everything won't break:
 
-find . -type f -iname '/ *' -exec rename -n 's|/ |/|' {} +
+`find . -type f -iname '/ *' -exec rename -n 's|/ |/|' {} +`
 
 And then you can just run it for real! And ... no errors. The yellow checkmark went to green. That's all I wanted, haha.
 (And no: I refused to hand edit 1800 files to solve this. Thank god for bash scripting.)
